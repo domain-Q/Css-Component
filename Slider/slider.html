@@ -7,14 +7,37 @@
     <link rel="stylesheet" href="slider.css">
 </head>
 <body>
-
-    <main>
-        <img src="https://picsum.photos/id/237/1000/500" class="slide">
-        <img src="https://picsum.photos/id/238/1000/500" class="slide">
-        <img src="https://picsum.photos/id/239/1000/500" class="slide">
-        <img src="https://picsum.photos/id/240/1000/500" class="slide">
-    </main>
+    <nav >
+       
+            <div class="logo">
+                MyLogo
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Signup</a></li>
+            </ul>
+        
+       
+    </nav>
+    <div class="slider">
+        <swiper-container class="mySwiper" pagination="true"  navigation="true">
+            <swiper-slide><img src="https://picsum.photos/id/237/1700/1200" alt=""></swiper-slide>
+            <swiper-slide><img src="https://picsum.photos/id/238/1700/1200" alt=""></swiper-slide>
+            <swiper-slide><img src="https://picsum.photos/id/239/1700/1200" alt=""></swiper-slide>
+            <swiper-slide><img src="https://picsum.photos/id/240/1700/1200" alt=""></swiper-slide>
+            <swiper-slide><img src="https://picsum.photos/id/231/1700/1200" alt=""></swiper-slide>
+            <swiper-slide><img src="https://picsum.photos/id/232/1700/1200" alt=""></swiper-slide>
+            <swiper-slide><img src="https://picsum.photos/id/233/1700/1200" alt=""></swiper-slide>
+            <swiper-slide><img src="https://picsum.photos/id/234/1700/1200" alt=""></swiper-slide>
+            <swiper-slide><img src="https://picsum.photos/id/235/1700/1200" alt=""></swiper-slide>
+          </swiper-container>
+    </div>
     
-    <script src="slider.js"></script>
-</body>
+  
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  
+  </body>
 </html>
