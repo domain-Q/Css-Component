@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #to-do-container {
+            padding: 70px;
+            border-radius: 25px;
+            border: 2px solid black;
+        }
+        ul {
+            margin-top: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        button {
+            margin-left: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="to-do-container">
+        <h1>Todo List</h1>
+        <input type="text" placeholder="Enter a task" id="input">
+        <button id="Add">Add</button>
+        <ul id="task-list">
+            <!-- Task items will be dynamically added here -->
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
